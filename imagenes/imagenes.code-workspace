@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "imagenes"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "imagenes"
+	}
+}

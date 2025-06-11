@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .encabezado {
+            position: relative;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .contenedor {
+            position: relative;
+            padding: 20px;
+        }
+
+        .info {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .imagenes {
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .imagen {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .imagen1 {
+            border: 2px solid #ff6347;
+            /* Tomate */
+        }
+
+        .imagen2 {
+            border: 2px solid #4682b4;
+            /* Azul acero */
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rottweiler con estilo relativo</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <h1>Rottweiler</h1>
+    </header>
+    <div class="contenedor">
+        <h2>¿Qué es un Rottweiler?</h2>
+        <p>El Rottweiler es una raza de perro originaria de Alemania, conocida por su fuerza, lealtad y protección.</p>
+        <div class="info">
+            <h3>Características físicas</h3>
+            <ul>
+                <li>Tamaño: Machos 61-69 cm, Hembras 56-63 cm</li>
+                <li>Peso: Machos 50-60 kg, Hembras 35-50 kg</li>
+                <li>Pelaje: Doble capa de pelo</li>
+                <li>Color: Negro con marcas de color marrón rojizo</li>
+            </ul>
+            <h3>Carácter y personalidad</h3>
+            <ul>
+                <li>Carácter: Leal, protector, inteligente y activo</li>
+                <li>Nivel de energía: Alto</li>
+                <li>Necesidades de ejercicio: Requiere ejercicio regular</li>
+            </ul>
+        </div>
+        <div class="imagenes">
+            <img src="imagenes/perritomio.jpg" align=left height=300px width=700px>
+            <img src="imagenes/rottweiler.jpg" align=right height=300px width=400px>
+        </div>
+    </div>
+</body>
+
+</html>

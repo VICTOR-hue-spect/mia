@@ -1,0 +1,6 @@
+img.jpg {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border: 2px solid black;
+}
